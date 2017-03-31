@@ -1,2 +1,4 @@
-www/cgi-bin/*.*
-www/vendors/*.*
+/www/cgi-bin/*.*
+/www/vendors/*.*
+/nbproject/private/
+/nbproject/*.*
