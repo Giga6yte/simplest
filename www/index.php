@@ -9,16 +9,17 @@ $smarty->compile_dir = 'test/compile';
 $smarty->config_dir = 'test/config';
 $smarty->cache_dir = 'test/cache';
 
-/*
-  $title = 'Example';
-  $author = 'Oleg';
-  $text = 'Hello world!';
+//#1. Для каждой переменной определено одно значение
+//$title = 'Example';
+//$author = 'Oleg';
+//$text = 'Hello world!';
+//
+//$smarty->assign('title', $title);
+//$smarty->assign('author', $author);
+//$smarty->assign('text', $text);
+//#end 1.
 
-  $smarty->assign('title', $title);
-  $smarty->assign('author', $author);
-  $smarty->assign('text', $text);
- */
-
+//#2. Использование массивов
 $posts = [
     'title' => 'Example',
     'author' => 'Oleg',
@@ -28,4 +29,5 @@ $posts = [
 $smarty->assign(data, $posts);
 
 $smarty->display('template.tpl');
+//#end 2.
 ?>
