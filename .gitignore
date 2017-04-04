@@ -1,5 +1,15 @@
-/www/cgi-bin/*.*
-/www/vendors/*.*
-/nbproject/private/
+#NetBeans
 /nbproject/*.*
-/www/test/compile/*.*
+/nbproject/private/*.*
+
+#www
+/www/cgi-bin/*.*
+
+#source bootstrap & jquery
+/www/vendors/*.*
+
+#source smarty
+/www/smarty/vendors/*.*
+
+#smarty temp
+/www/smarty/test/compile/*.*
