@@ -2,3 +2,4 @@
 /www/vendors/*.*
 /nbproject/private/
 /nbproject/*.*
+/www/test/compile/*.*
