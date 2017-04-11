@@ -9,7 +9,7 @@
 /www/vendors/*.*
 
 #source smarty
-/www/smarty/vendors/*.*
+/www/lessons/smarty/vendors/*.*
 
 #smarty temp
-/www/smarty/test/compile/*.*
+/www/lessons/smarty/compile/*.*

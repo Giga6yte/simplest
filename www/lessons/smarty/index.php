@@ -4,12 +4,13 @@ require_once 'vendors/smarty 3.1.30/libs/Smarty.class.php';
 
 $smarty = new Smarty;
 
-$smarty->template_dir = 'test/templates';
-$smarty->compile_dir = 'test/compile';
-$smarty->config_dir = 'test/config';
-$smarty->cache_dir = 'test/cache';
+$smarty->template_dir = 'templates';
+$smarty->compile_dir = 'compile';
+$smarty->config_dir = 'config';
+$smarty->cache_dir = 'cache';
 
 //#1. Для каждой переменной определено одно значение
+//
 //$title = 'Example';
 //$author = 'Oleg';
 //$text = 'Hello world!';
@@ -17,9 +18,11 @@ $smarty->cache_dir = 'test/cache';
 //$smarty->assign('title', $title);
 //$smarty->assign('author', $author);
 //$smarty->assign('text', $text);
+//
 //#end 1.
 
 //#2. Использование массивов
+
 $posts = [
     'title' => 'Example',
     'author' => 'Oleg',
@@ -28,6 +31,7 @@ $posts = [
 ];
 $smarty->assign(data, $posts);
 
-$smarty->display('template.tpl');
 //#end 2.
+
+$smarty->display('template.tpl');
 ?>
