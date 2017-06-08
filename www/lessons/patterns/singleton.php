@@ -3,7 +3,7 @@
 class single {
 
 // внутренний массив значений класса
-    private $props = array();
+    private $props = [];
 
 // экзэмпляр самого себя
     private static $_instance;
